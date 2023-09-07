@@ -9,6 +9,7 @@ continuar = "1"
 while continuar == "1":
     opcion = input("Escoja una de las opciones.\n1. Eliminar un carro\n2. Actualizar\n3. Consultar\n4. "
                    "Agregar\nDigite su eleccion aqui: ")
+    print()
 
     if opcion == "1":
         referencia = input("Digite la referencia del carro que quiere borrar: ")
